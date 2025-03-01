@@ -1,0 +1,56 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+:root{
+
+    --backColor: green;
+    --imgBlur: 5px;
+    --space: 0px;
+}
+
+
+
+#container{
+  display: flex;
+  flex-flow: nowrap column;
+  align-items: center;
+
+  background-color: #162E3E;
+
+}
+#custom{
+    width: 70%;
+    height: 30vh;
+    /* background-color: #ccc; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#output{
+        background-color: var(--backColor);
+         width:70%;
+         height: 60vh;
+         filter: blur(var(--imgBlur));     
+
+}
+img{
+       position: absolute;
+       left: var(--space);
+       top: var(--space);
+
+      width:40%;
+    /* height: 80%; */
+}
+
+h1,label{
+    color:white;
+    
+}
+span{
+    color: var(--backColor)
+}

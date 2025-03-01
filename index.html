@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>playing with css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Update Css Variables with <span>Js</span></h1>
+        
+        <div id="custom">
+                <div>
+                    <label for="blur">Blur</label>
+                    <input name="blur" type="range" id="blur_slider" min="0" max="10" step="1">
+                </div> 
+
+                <div>
+                <label for="space">spacing</label>
+                <input name ="space" type="range" id="space_slider" min="0" max="100" step="10">
+                </div>
+                    
+                <div>
+                    <label for="color">pick color</label>
+                    <input name ="color" type="color" id="backColor">
+                </div>
+        </div>
+
+        <div id="output">
+            
+            <img src="im1.jpg">
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
